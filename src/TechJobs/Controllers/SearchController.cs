@@ -20,9 +20,10 @@ namespace TechJobs.Controllers
         {
             //look up search results via JobData class   
 
-            JobData.FindByValue(value);
+            //JobData.FindByValue(value);
 
             //pass them into Views/Search/index.cshtml 
+            return View();
 
         }
     }
